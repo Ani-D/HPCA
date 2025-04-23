@@ -1,0 +1,24 @@
+file /home/rakesh-kumar-giri/Block-Replacement-MacSIM/SConstruct,line 46:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for c++11 conformance...
+scons: Configure: ".sconf_temp/conftest_3b0326458ccb1a06bbbb1cdeec17b3c1_0.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3b0326458ccb1a06bbbb1cdeec17b3c1_0.cpp <-
+  |  |
+  |  |    #include <vector>
+  |  |    int main() {
+  |  |        std::vector<int> v = {1, 2, 3, 4, 5};
+  |  |        int sum = 0;
+  |  |        for (auto i : v) {
+  |  |            sum += i;
+  |  |        }
+  |  |        return sum;
+  |  |    }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_3b0326458ccb1a06bbbb1cdeec17b3c1_0_8c3b0dd3e86fae31da918c345aaa4d15.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_3b0326458ccb1a06bbbb1cdeec17b3c1_0_8c3b0dd3e86fae31da918c345aaa4d15.o -c -std=c++11 .sconf_temp/conftest_3b0326458ccb1a06bbbb1cdeec17b3c1_0.cpp
+  |
+scons: Configure: (cached) yes
+
